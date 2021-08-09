@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- <script src="java.js"></script> -->
+
+<body id="main">
+    <div class="line">
+        <h1>ENJOYING YOUR WORK LEADS TO PERFECTION</h1>
+        <div id="post"></div>
+    </div>
+
+    <div class="line">
+        <div class="circle1" id="member1">
+            <img src="pic1.jpg" alt="">
+        </div>
+        <div id="post2" onclick="print()"></div>
+        <div id="member2">
+            <div class="circle1" id="contact">
+                <img src="pic1.jpg" alt="">
+            </div>
+            <div class="contact" id="con">
+                <div>shubham jain</div>
+                <div>founder</div>
+            </div>
+        </div>
+
+        <div class="circle2" id="member3">
+            <img src="pic1.jpg" alt="">
+        </div>
+    </div>
+
+
+    <script>
+        function print() {
+            let main = document.getElementById('main');
+            let m1 = document.getElementById('member1');
+            let m3 = document.getElementById('member3');
+            let post = document.getElementById('post');
+            if (main.classList.contains('mystyle')) {
+                main.classList.remove('mystyle');
+                m1.removeAttribute(
+                    "style", "z-index: -2; transform: scale(0.8); ");
+                m3.removeAttribute(
+                    "style", "z-index: -2; transform: scale(0.8);");
+                post.removeAttribute(
+                    "style", "z-index: -2; transform: scale(0.8);");
+            }
+            else {
+                main.classList.add('mystyle');
+                m1.setAttribute(
+                    "style", "z-index: -2;  transform: scale(0.8); transition: all 0.3s linear;");
+                m3.setAttribute(
+                    "style", "z-index: -2; transform: scale(0.8); transition: all 0.3s linear;");
+                post.setAttribute(
+                    "style", "z-index: -2; transform: scale(0.8); transition: all 0.3s linear;");
+            }
+
+        }
+        let m1 = document.getElementById('member1');
+        let m3 = document.getElementById('member3');
+        let m2 = document.getElementById('member2');
+        let post = document.getElementById('post');
+        let post2 = document.getElementById('post2');
+        let con = document.getElementById('con');
+        // const left = post2.getBoundingClientRect().left - m2.getBoundingClientRect().left;
+        // const toop = post2.getBoundingClientRect().top - m2.getBoundingClientRect().top;
+        // console.log(toop);
+
+        let team = [m1, m2, m3];
+        let all= [m1,m2,m3,post, post2];
+        for (let i = 0; i < 3; i++) {
+            team[i].addEventListener("click", function () {
+
+            for (let j = 0; j < 5; j++) {
+                const left = all[j].getBoundingClientRect().left - team[i].getBoundingClientRect().left;
+                const top = all[j].getBoundingClientRect().top - team[i].getBoundingClientRect().top;
+        
+                if (left < 0) {
+                    all[j].setAttribute(
+                        "style", "transform: translateX(-50px);");
+                }
+                if (top < 0) {
+                        all[j].setAttribute(
+                            "style", "transform: translateY(-50px);");
+                    }
+                    if (left > 0) {
+                       all[j].setAttribute(
+                            "style", "transform: translateX(50px);");
+                    }
+                    if (top > 0) {
+                        all[j].setAttribute(
+                            "style", "transform: translateY(50px);");
+                    }
+                    if (top==0 && left==0) {
+                       team[i].setAttribute(
+                            "style", "transform: translateY(-50px);");
+                    }
+            }
+
+        });
+
+        }
+
+        // function name() {
+        //     let m1 = document.getElementById('member1');
+        //     let m3 = document.getElementById('member3');
+        //     let m2 = document.getElementById('member2');
+        //     let con = document.getElementById('con');
+        //     let team = [m1, m2, m3];
+
+        //     let i = 2;
+        //     for (let j = 0; j < 3; j++) {
+        //         const left = team[j].getBoundingClientRect().left - team[2].getBoundingClientRect().left;
+        //         const top = team[j].getBoundingClientRect().top - team[2].getBoundingClientRect().top;
+
+        //         if (left < 0) {
+        //             team[j].setAttribute(
+        //         "style", "transform: translateX(-50px);");
+        //         }
+
+                // const left = team[0].getBoundingClientRect().left - team[1].getBoundingClientRect().left;
+                // if (left < 0) {
+                //     con.style.display = 'block';
+            // }
+
+
+
+
+            // let m1 = document.getElementById('member1');
+            // let m3 = document.getElementById('member3');
+            // let m2 = document.getElementById('member2');
+            // let post = document.getElementById('post');
+            // let post2 = document.getElementById('post2');
+            // let con = document.getElementById('con');
+            // m1.setAttribute(
+            //     "style", "transform: translateX(-50px);");
+            // m3.setAttribute(
+            //     "style", "transform: translateX(50px);");
+            // post.setAttribute(
+            //     "style", "transform: translateY(-50px);");
+            // post2.setAttribute(
+            //     "style", "transform: translate(-50px, -50px );");
+            // m2.setAttribute(
+            //     "style", "transform: translateY(-50px ); transition:transform 0.3s linear;");
+            //  con.style.display= 'block';
+
+        // }
+    </script>
+
+</body>
+
+</body>
+
+</html>

@@ -1,0 +1,170 @@
+.mystyle::before{
+  content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.contact{
+  display: none;
+color: rgb(93, 93, 95);
+text-align: center;
+font-size: 1.5rem;
+margin: 20px;
+transition: all 0.3s ease-in;
+
+} 
+
+.circle1 {
+    display: flex;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 50%;
+    transition: all 0.3s linear; 
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    
+  }
+  .circle1::after{
+    content: "";
+    background-color: rgba(0, 0, 255, 0.445);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+  
+.circle1 img {
+    width: auto;
+    height: 100%;
+    margin-left: -50px;
+  } 
+  .circle1:hover{
+    transform: scale(1.05);
+  
+  }
+  
+
+.circle2 {
+    display: flex;
+    position: relative;
+    width: 190px;
+    height: 190px;
+    overflow: hidden;
+    border-radius: 50%;
+    transition: all 0.3s linear; 
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+  }
+  .circle2::after{
+    content: "";
+    background-color: rgba(116, 4, 168, 0.445);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+  
+.circle2 img {
+    width: auto;
+    height: 100%;
+    margin-left: -50px;
+  }
+  .circle2:hover{
+    transform: scale(1.05);
+  }
+  
+ .line{
+  display: flex;
+   }
+
+ #post{
+  height: 135px;
+  width: 135px;
+  border-radius: 50%;
+  background-color: rgb(118 66 154 / 77%);
+  margin-left: 53vw;
+  margin-top: 17vh;
+  transition: all 0.3s linear; 
+   position: absolute;
+
+ }
+ #post:hover{
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+ }
+
+ h1{
+  height: 25vh;
+  width: 47vw;
+  margin-left: 2vw;
+  font-size: 3rem;
+  margin-top: 7vh;
+ }
+ #member1{
+   margin-left: 9vw;
+   margin-top: 10vh;
+ }
+
+ #post2{
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  background-color: rgb(30 125 255 / 77%);
+    margin-top: 10vh;
+    margin-left: 32vw;
+    transition: all 0.3s linear; 
+    position: absolute;
+    
+
+ }
+ #post2:hover{
+  height: 135px;
+  width: 135px;
+  border-radius: 50%;
+ }
+
+ #member2{
+  margin-left: 45vw;
+  margin-top: 10vh;
+  position: absolute;
+}
+ #member3{
+  margin-left: 69vw;
+  margin-top: 13vh;
+  position: absolute;
+}
+
+
+
+
+
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
