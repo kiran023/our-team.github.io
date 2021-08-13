@@ -557,17 +557,316 @@
   }
   
 }
-
-@media only screen and (max-width: 578px){
-
+@media only screen and (max-width: 510px){
 
   .team{
-    position: relative;
-    height: 2822px;
-    overflow: visible !important;
+    margin-left: -370px;
+  }
+  
+}
+@media only screen and (max-width: 410px){
+
+  .team{
+    margin-left: -410px;
+  }
+  
+}
+@media only screen and (max-width: 320px){
+
+  .team{
+    margin-left: -410px;
+  }
+  
+}
+
+@media only screen and (max-width: 560px){
+.team .circle1{
+  height: 190px ;
+  width:190px ;
+}
+.team .circle2{
+  height: 160px ;
+  width: 160px;
+}
+ .team .post{
+  height: 120px;
+  width: 120px;
+}
+.team .post1{
+  height:140px ;
+  width: 140px;
+}
+.team .post2{
+  height: 90px ;
+  width:90px ;
+}
+
+
+
+
+
+  .team .line #finalyear{
+    background-color: var(--purple);
+    top: 70px;
+    left: 451px;
+   }
+  
+   .team #h-finalyear{
+    top: 70px;
+    left: 451px;
   }
 
+  .team #final{
+    font-size: 2rem;
+  }
+  #year{
+    font-size: 1.5rem;
+  }
+   
+  .team #coordinators{
+    background-color: var(--blue);
+    top: 302px;
+    left: 573px;
+   }
+   .team #h-coord{
+    top: 302px;
+    left: 573px;
+    font-size: 1.1rem;
+    font-weight: bolder;
+  }
+  
+  .team #quizzers{
+    background-color: var(--yellow);
+    top: 1077px;
+    left: 494px;
+  }
+  .team #h-quizzers{
+    top: 1077px;
+    left: 494px;
+    font-size: 1.5rem;
+  }
+  
+  .team #sponsorship{
+    background-color: var(--pink);
+    top: 604px;
+    left: 410px;
+
+  }
+  .team #h-sponsorship{
+    top: 604px;
+    left: 410px;
+
+      font-size: 1.8rem;
+  }
+  
+  .team #sponsor{
+    font-size: 2.5rem;
+  }
+  
+  .team #head{
+    font-size: 2rem;
+  }
+  
+  .team  #foundin{
+    background-color: var(--teal);
+    top: 1204px;
+    left: 418px;
+  }
+
+  .team #webhead{
+    background-color: var(--yellow);
+    top: 1693px;
+    left: 445px;
+  }
+  .team #h-webhead{
+    top: 1693px;
+    left: 445px;
+      font-size: 1.8rem;
+  }
+  .team #quizzersclub{
+    background-color: black;
+        top: 1040px;
+    left: 631px;
+  }
+  .team #h-quizzersclub{
+    top: 1040px;
+    left: 631px;
+    font-size: 1.5rem;
+  }
+  
+  .team #quiz{
+    background-color: var(--blue);
+    top: 2162px;
+    left: 415px;
+  }
+  .team #social{
+    background-color: var(--pink);
+    top: 1386px;
+    left: 641px;
+  }
+  .team #h-social{
+    top: 1386px;
+    left: 641px;
+    font-size: 1.5rem;
+  }
+  .team #designer{
+    background-color: var(--yellow);
+    top: 1908px;
+    left: 599px;
+  }
+  .team #h-designer{
+    top: 1908px;
+    left: 599px;
+      font-size: 1.6rem;
+  }
+  .team #executive{
+    background-color: var(--teal);
+    top: 2015px;
+    left: 383px;
+  }
+  .team #h-exe{
+    top: 1996px;
+    left: 344px;
+    font-size: 1.5rem;
+  }
+  .team #prefinal{
+    background-color: var(--pink);
+    top: 2414px;
+    left: 388px;
+  }
+  .team #h-prefinal{
+    top: 2414px;
+    left: 388px;
+    overflow: hidden;
+  }
+  .team #pre{
+  font-size: 1.7rem ;
+  }
+  
+  .team #year{
+  font-size: 1.5rem ;
+  }
+  
+  .team #photographer{
+    background-color: var(--purple);
+    top: 2198px;
+    left: 619px;
+  }
+  .team #h-photographer {
+    top: 2198px;
+    left: 619px;
+    font-size: 1.1rem;
+  }
+  
+  /* css for circle containing image */
+  
+  .team #member1{
+    left: 587px;
+    top: 99px;
+    position: absolute;
+    overflow: hidden !important;
+  }
+  
+  .team #member2{
+    left: 377px;
+    top: 201px;
+    position: absolute;
+  }
+  
+  .team #member3{
+    left: 406px;
+    top: 424px;
+      position: absolute;
+  }
+  
+  
+  .team #member4{
+    left: 590px;
+    top: 449px;
+      position: absolute;
+  }
+  
+  .team #member5{
+    left: 385px;
+    top: 765px;
+    position: absolute;
+  }
+  
+  .team #member6{
+    left: 535px;
+    top: 882px;
+    position: absolute;
+  
+  }
+  
+  .team #member7{
+    left: 363px;
+    top: 944px;
+    position: absolute;
+  }
+  
+  .team #member8{
+    left: 571px;
+    top: 1201px;
+    position: absolute;
+  }
+  
+  .team #member9{
+    left: 461px;
+    top: 1348px;
+    position: absolute;
+  }
+  
+  .team #member10{
+    left: 561px;
+    top: 664px;
+    position: absolute;
+  }
+  
+  .team #member11{
+    left: 380px;
+    top: 1514px;
+    position: absolute;
+  }
+  
+  .team #member12{
+    left: 559px;
+    top: 1534px;
+    position: absolute;
+  }
+  
+  .team #member13{
+    left: 583px;
+    top: 1728px;
+    position: absolute;
+  }
+  
+  .team #member14{
+    left: 419px;
+    top: 1843px;
+    position: absolute;
+  }
+  
+  .team #member15{
+    left: 509px;
+    top: 2046px;
+    position: absolute; 
+  }
+  
+  .team #member16{
+    left: 569px;
+    top: 2380px;
+    position: absolute;
+  }
+  
+  .team #member17{
+    left: 459px;
+    top: 2248px;
+    position: absolute; 
+  }
+ 
 }
+
 :root{
 
   --yellow:#e4cb35d4 ;
