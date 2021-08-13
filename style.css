@@ -8,6 +8,579 @@
     z-index: -1;
 }
 
+.team{
+  position: relative;
+  height: 2822px;
+  overflow: hidden !important;
+  
+}
+
+@media only screen and (max-width: 1140px){
+
+  .team{
+    margin-left: -90px;
+  }
+ 
+}
+@media only screen and (max-width: 1030px){
+
+
+
+  .team .line #finalyear{
+    background-color: var(--purple);
+    top: 30px;
+    left: 683px;
+   }
+  
+   .team #h-finalyear{
+    top: 59px;
+    left: 708px;
+  }
+  .team #final{
+    font-size: 2rem;
+  }
+  #year{
+    font-size: 1.5rem;
+  }
+   
+  .team #coordinators{
+    background-color: var(--blue);
+    top: 56px;
+    left: 519px;
+   }
+   .team #h-coord{
+    top: 56px;
+    left: 519px;
+    font-size: 1.1rem;
+    font-weight: bolder;
+  }
+  
+  .team #quizzers{
+    background-color: var(--yellow);
+    top: 378px;
+    left: 230px;
+  }
+  .team #h-quizzers{
+    top: 378px;
+    left: 230px;
+    font-size: 1.5rem;
+  }
+  
+  .team #sponsorship{
+    background-color: var(--pink);
+    top: 513px;
+    left: 560px;
+  }
+  .team #h-sponsorship{
+    top: 513px;
+    left: 560px;
+      font-size: 1.8rem;
+  }
+  
+  .team #sponsor{
+    font-size: 2.5rem;
+  }
+  
+  .team #head{
+    font-size: 2rem;
+  }
+  
+  .team  #foundin{
+    background-color: var(--teal);
+    top: 803px;
+    left: 617px;
+  }
+  .team #webhead{
+    background-color: var(--yellow);
+    top: 955px;
+    left: 416px;
+  }
+  .team #h-webhead{
+    top: 955px;
+    left: 416px;
+      font-size: 1.8rem;
+  }
+  .team #quizzersclub{
+    background-color: black;
+    top: 967px;
+    left: 565px;
+  }
+  .team #h-quizzersclub{
+    top: 967px;
+    left: 565px;
+    font-size: 1.5rem;
+  }
+  
+  .team #quiz{
+    background-color: var(--blue);
+    top: 796px;
+    left: 902px;
+  }
+  .team #social{
+    background-color: var(--pink);
+    top: 1089px;
+    left: 741px;
+  }
+  .team #h-social{
+    top: 1089px;
+    left: 741px;
+    font-size: 1.5rem;
+  }
+  .team #designer{
+    background-color: var(--yellow);
+    top: 1287px;
+    left: 393px;
+  }
+  .team #h-designer{
+    top: 1287px;
+    left: 393px;
+      font-size: 1.6rem;
+  }
+  .team #executive{
+    background-color: var(--teal);
+    top: 1158px;
+    left: 893px;
+  }
+  .team #h-exe{
+    top: 1158px;
+    left: 893px;
+    font-size: 1.5rem;
+  }
+  .team #prefinal{
+    background-color: var(--pink);
+    top: 1430px;
+    left: 718px;
+  }
+  .team #h-prefinal{
+    top: 1430px;
+    left: 718px;
+    overflow: hidden;
+  }
+  .team #pre{
+  font-size: 1.7rem ;
+  }
+  
+  .team #year{
+  font-size: 1.5rem ;
+  }
+  
+  .team #photographer{
+    background-color: var(--purple);
+    top: 1394px;
+    left: 558px;
+  }
+  .team #h-photographer {
+    top: 1394px;
+    left: 558px;
+    font-size: 1.1rem;
+  }
+  
+  /* css for circle containing image */
+  
+  .team #member1{
+    left: 228px;
+    top: 94px;
+    position: absolute;
+    overflow: hidden !important;
+  }
+  
+  .team #member2{
+    left: 519px;
+    top: 196px;
+    position: absolute;
+  }
+  
+  .team #member3{
+    left: 793px;
+    top: 155px;
+      position: absolute;
+  }
+  
+  
+  .team #member4{
+    left: 775px;
+    top: 362px;
+      position: absolute;
+  }
+  
+  .team #member5{
+    left: 383px;
+    top: 420px;
+    position: absolute;
+  }
+  
+  .team #member6{
+    left: 191px;
+    top: 550px;
+    position: absolute;
+  
+  }
+  
+  .team #member7{
+    left: 207px;
+    top: 919px;
+    position: absolute;
+  }
+  
+  .team #member8{
+    left: 727px;
+    top: 658px;
+    position: absolute;
+  }
+  
+  .team #member9{
+    left: 342px;
+    top: 1105px;
+    position: absolute;
+  }
+  
+  .team #member10{
+    left: 328px;
+    top: 655px;
+    position: absolute;
+  }
+  
+  .team #member11{
+    left: 756px;
+    top: 888px;
+    position: absolute;
+  }
+  
+  .team #member12{
+    left: 178px;
+    top: 1210px;
+    position: absolute;
+  }
+  
+  .team #member13{
+    left: 533px;
+    top: 1191px;
+    position: absolute;
+  }
+  
+  .team #member14{
+    left: 729px;
+    top: 1242px;
+    position: absolute;
+  }
+  
+  .team #member15{
+    left: 194px;
+    top: 1392px;
+    position: absolute; 
+  }
+  
+  .team #member16{
+    left: 331px;
+    top: 1510px;
+    position: absolute;
+  }
+  
+  .team #member17{
+    left: 638px;
+    top: 1633px;
+    position: absolute; 
+  }
+ 
+}
+
+@media only screen and (max-width: 980px){
+
+  .team{
+    margin-left: -180px;
+  }
+  
+}
+@media only screen and (max-width: 860px){
+
+  .team .line #finalyear{
+    background-color: var(--purple);
+    top: 30px;
+    left: 709px;
+   }
+  
+   .team #h-finalyear{
+    top: 30px;
+    left: 709px;
+  }
+  .team #final{
+    font-size: 2rem;
+  }
+  #year{
+    font-size: 1.5rem;
+  }
+   
+  .team #coordinators{
+    background-color: var(--blue);
+    top: 43px;
+    left: 547px;
+   }
+   .team #h-coord{
+    top: 43px;
+    left: 547px;
+    font-size: 1.1rem;
+    font-weight: bolder;
+  }
+  
+  .team #quizzers{
+    background-color: var(--yellow);
+    top: 406px;
+    left: 288px;
+  }
+  .team #h-quizzers{
+    top: 406px;
+    left: 288px;
+    font-size: 1.5rem;
+  }
+  
+  .team #sponsorship{
+    background-color: var(--pink);
+    top: 1220px;
+    left: 284px;
+  }
+  .team #h-sponsorship{
+    top: 1220px;
+    left: 284px;
+      font-size: 1.8rem;
+  }
+  
+  .team #sponsor{
+    font-size: 2.5rem;
+  }
+  
+  .team #head{
+    font-size: 2rem;
+  }
+  
+  .team  #foundin{
+    background-color: var(--teal);
+    top: 804px;
+    left: 676px;
+  }
+  .team #webhead{
+    background-color: var(--yellow);
+    top: 875px;
+    left: 263px;
+  }
+  .team #h-webhead{
+    top: 875px;
+    left: 263px;
+      font-size: 1.8rem;
+  }
+  .team #quizzersclub{
+    background-color: black;
+    top: 1611px;
+    left: 678px;
+  }
+  .team #h-quizzersclub{
+    top: 1611px;
+    left: 678px;
+    font-size: 1.5rem;
+  }
+  
+  .team #quiz{
+    background-color: var(--blue);
+    top: 1920px;
+    left: 539px;
+  }
+  .team #social{
+    background-color: var(--pink);
+    top: 1343px;
+    left: 551px;
+  }
+  .team #h-social{
+    top: 1343px;
+    left: 551px;
+    font-size: 1.5rem;
+  }
+  .team #designer{
+    background-color: var(--yellow);
+    top: 1408px;
+    left: 399px;
+  }
+  .team #h-designer{
+    top: 1408px;
+    left: 399px;
+      font-size: 1.6rem;
+  }
+  .team #executive{
+    background-color: var(--teal);
+    top: 1753px;
+    left: 344px;
+  }
+  .team #h-exe{
+    top: 1753px;
+    left: 344px;
+    font-size: 1.5rem;
+  }
+  .team #prefinal{
+    background-color: var(--pink);
+    top: 1914px;
+    left: 315px;
+  }
+  .team #h-prefinal{
+    top: 1914px;
+    left: 315px;
+    overflow: hidden;
+  }
+  .team #pre{
+  font-size: 1.7rem ;
+  }
+  
+  .team #year{
+  font-size: 1.5rem ;
+  }
+  
+  .team #photographer{
+    background-color: var(--purple);
+    top: 2051px;
+    left: 510px;
+  }
+  .team #h-photographer {
+    top: 2051px;
+    left: 510px;
+    font-size: 1.1rem;
+  }
+  
+  /* css for circle containing image */
+  
+  .team #member1{
+     left: 296px;
+    top: 111px;
+    position: absolute;
+    overflow: hidden !important;
+  }
+  
+  .team #member2{
+    left: 605px;
+    top: 199px;
+    position: absolute;
+  }
+  
+  .team #member3{
+    left: 706px;
+    top: 499px;
+      position: absolute;
+  }
+  
+  
+  .team #member4{
+    left: 410px;
+    top: 449px;
+      position: absolute;
+  }
+  
+  .team #member5{
+    left: 264px;
+    top: 665px;
+    position: absolute;
+  }
+  
+  .team #member6{
+    left: 415px;
+    top: 782px;
+    position: absolute;
+  
+  }
+  
+  .team #member7{
+    left: 498px;
+    top: 944px;
+    position: absolute;
+  }
+  
+  .team #member8{
+    left: 677px;
+    top: 1007px;
+    position: absolute;
+  }
+  
+  .team #member9{
+    left: 324px;
+    top: 1016px;
+    position: absolute;
+  }
+  
+  .team #member10{
+    left: 608px;
+    top: 697px;
+    position: absolute;
+  }
+  
+  .team #member11{
+    left: 480px;
+    top: 1146px;
+    position: absolute;
+  }
+  
+  .team #member12{
+    left: 674px;
+    top: 1210px;
+    position: absolute;
+  }
+  
+  .team #member13{
+    left: 676px;
+    top: 1427px;
+    position: absolute;
+  }
+  
+  .team #member14{
+    left: 502px;
+    top: 1543px;
+    position: absolute;
+  }
+  
+  .team #member15{
+    left: 305px;
+    top: 1558px;
+    position: absolute; 
+  }
+  
+  .team #member16{
+    left: 663px;
+    top: 1843px;
+    position: absolute;
+  }
+  
+  .team #member17{
+    left: 510px;
+    top: 1738px;
+    position: absolute; 
+  }
+ 
+}
+@media only screen and (max-width: 730px){
+
+  .team{
+    margin-left: -280px;
+  }
+  
+}
+
+@media only screen and (max-width: 578px){
+
+
+  .team{
+    position: relative;
+    height: 2822px;
+    overflow: visible !important;
+  }
+
+}
+:root{
+
+  --yellow:#e4cb35d4 ;
+  --blue: #13a3bfb8;
+  --purple:rgba(117, 18, 117, 0.836) ;
+  --teal: teal;
+  --pink: #e41868ad;
+  --back-green: rgb(18 118 132 / 71%);
+  --back-blue: rgba(35, 87, 182, 0.671);
+  --back-purple: rgb(87 18 134 / 55%) ;
+}
+
+
 .contact{
   display: none;
 color: rgb(93, 93, 95);
@@ -27,8 +600,7 @@ transition: all 0.3s ease-in;
     border-radius: 50%;
     transition: all 0.3s linear; 
     animation-timing-function: ease-in-out;
-    animation-duration: 1s;
-    
+    animation-duration: 1s;    
   }
   .circle1::after{
     content: "";
@@ -78,6 +650,7 @@ transition: all 0.3s ease-in;
   
  .line{
   display: flex;
+  position: relative;
    }
 
  .post{
@@ -96,13 +669,15 @@ transition: all 0.3s ease-in;
    position: absolute;
 
  }
- #finalyear{
-  background-color: rgba(117, 18, 117, 0.836);
-  top: 24vh;
-  left: 55vw;
- }
- 
- .post:hover{
+ .post2{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  transition: all 0.3s linear; 
+  position: absolute;
+  overflow: hidden !important;
+}
+.post:hover{
   height: 140px;
   width: 140px;
   border-radius: 50%;
@@ -112,34 +687,34 @@ transition: all 0.3s ease-in;
   width: 195px;
   border-radius: 50%;
  }
- h1{
-  height: 25vh;
-  width: 47vw;
-  margin-left: 2vw;
-  font-size: 3rem;
-  margin-top: 7vh;
- }
+
+/* css for smaller circle and textes */
 
 
-
- .tag{
-  color: white;
-  position: absolute;
+.tag{
+ color: white;
+ position: absolute;
 display: flex;
 flex-direction: column;
 text-align: center;
 font-family: 'Playfair Display', serif;
 }
 
+ #finalyear{
+  background-color: rgba(117, 18, 117, 0.836);
+  top: 24vh;
+  left: 55vw;
+ }
+
 #finalyear{
   background-color: var(--purple);
-  top: 25vh;
-  left: 54.8vw;
+  top: 30px;
+  left: 683px;
  }
 
  #h-finalyear{
-  top: 30vh;
-  left: 56.5vw;
+  top: 59px;
+  left: 708px;
 }
 #final{
   font-size: 2rem;
@@ -150,24 +725,35 @@ font-family: 'Playfair Display', serif;
  
 #coordinators{
   background-color: var(--blue);
-  top: 50vh;
-  left: 35vw;
+  top: 196px;
+  left: 455px;
  }
 #h-coord{
-  top: 59vh;
-  left: 36.2vw;
+  top: 252px;
+    left: 470px;
   font-size: 1.1rem;
   font-weight: bolder;
 }
 
+#quizzers{
+  background-color: var(--yellow);
+  top: 530px;
+    left: 235px;
+}
+#h-quizzers{
+  top: 562px;
+  left: 258px;
+  font-size: 1.5rem;
+}
+
 #sponsorship{
   background-color: var(--pink);
-    top: 98vh;
-    left: 54vw;
+  top: 503px;
+  left: 692px;
 }
 #h-sponsorship{
-  top: 107vh;
-    left: 55.6vw;
+  top: 565px;
+    left: 713px;
     font-size: 1.8rem;
 }
 
@@ -179,102 +765,77 @@ font-family: 'Playfair Display', serif;
   font-size: 2rem;
 }
 
-:root{
-
-  --yellow:#e4cb35d4 ;
-  --blue: #13a3bfb8;
-  --purple:rgba(117, 18, 117, 0.836) ;
-  --teal: teal;
-  --pink: #e41868ad;
-  --back-green: rgb(18 118 132 / 71%);
-  --back-blue: rgba(35, 87, 182, 0.671);
-  --back-purple: rgb(87 18 134 / 55%) ;
-}
-
-#quizzers{
-  background-color: var(--yellow);
-  top: 98vh;
-  left: 16vw;
-}
-#h-quizzers{
-  top: 103vh;
-  left: 17.5vw;
-  font-size: 1.5rem;
-}
-
 #foundin{
   background-color: var(--teal);
-  top: 89vh;
-  left: 4vw;
+  top: 470px;
+  left: 90px;
 }
 #webhead{
   background-color: var(--yellow);
-  top: 126vh;
-  left: 45vw;
+  top: 678px;
+    left: 534px;
 }
 #h-webhead{
-  top: 130vh;
-    left: 47.5vw;
+  top: 702px;
+  left: 565px;
     font-size: 1.8rem;
 }
 #quizzersclub{
   background-color: black;
-  top: 139vh;
-  left: 73vw;
+  top: 757px;
+    left: 891px;
 }
 #h-quizzersclub{
-  top: 149vh;
-  left: 75vw;
+  top: 822px;
+  left: 914px;
+  font-size: 1.5rem;
+  overflow: hidden;
 }
-#club{
-font-size: 1.4rem;
-}
-#nit{
-  font-size: 2rem;
-}
+
 #quiz{
   background-color: var(--blue);
-  top: 120vh;
-    left: 70vw;
+  top: 631px;
+    left: 902px;
 }
 #social{
   background-color: var(--pink);
-  top: 164vh;
-  left: 62vw;
+  top: 974px;
+    left: 964px;
 }
 #h-social{
-  top: 167vh;
-  left: 64.5vw;
+  top: 993px;
+  left: 998px;
   font-size: 1.5rem;
 }
 #designer{
   background-color: var(--yellow);
-  top: 173vh;
-  left: 6vw;
+  top: 1032px;
+  left: 123px;
 }
 #h-designer{
-  top: 181vh;
-  left: 7.4vw;
+  top: 1079px;
+  left: 143px;
     font-size: 1.6rem;
 }
 #executive{
   background-color: var(--teal);
-  top: 197vh;
-    left: 34vw;
+  top: 1158px;
+  left: 489px;
 }
 #h-exe{
-  top: 205vh;
-  left: 35.4vw;
+  top: 1207px;
+  left: 509px;
   font-size: 1.5rem;
 }
 #prefinal{
   background-color: var(--pink);
-  top: 226vh;
-  left: 21vw;
+  top: 1347px;
+  left: 718px;
 }
 #h-prefinal{
-  top: 237vh;
-  left: 23vw;
+  top: 1415px;
+  left: 746px;
+  overflow: hidden;
 }
 #pre{
 font-size: 1.7rem ;
@@ -286,45 +847,124 @@ font-size: 1.5rem ;
 
 #photographer{
   background-color: var(--purple);
-  top: 245vh;
-  left: 62vw;
+  top: 1319px;
+  left: 558px;
 }
-#h-photographer{
-  top: 254vh;
-    left: 63.5vw;
-    font-size: 1.1rem;
-}
-
-#manit{
-  background-color: var(--blue);
-  top: 194vh;
-  left: 82vw;
-}
-#star{
-  top: 227vh;
-  left: 59vw;
-  background-color: var(--blue);
+#h-photographer {
+  top: 1375px;
+  left: 576px;
+  font-size: 1.1rem;
 }
 
-#plus{
-  top: 117vh;
-  left: 86vw;
-  background-color: teal;
-
-}
-#enjoy{
-  top: 156vh;
-    left: 84vw;
-  background-color: var(--blue);
-
-}
-
+/* css for circle containing image */
 
  #member1{
-  left: 11vw;
-    top: 50vh;
+  left: 160px;
+  top: 196px;
+  position: absolute;
+  overflow: hidden !important;
+}
+
+ #member2{
+  left: 629px;
+  top: 196px;
   position: absolute;
 }
+
+ #member3{
+  left: 939px;
+  top: 235px;
+    position: absolute;
+}
+
+
+#member4{
+  left: 394px;
+  top: 377px;
+    position: absolute;
+}
+
+#member5{
+  left: 899px;
+  top: 438px;
+  position: absolute;
+}
+
+#member6{
+  left: 119px;
+    top: 681px;
+  position: absolute;
+
+}
+
+#member7{
+  left: 329px;
+  top: 668px;
+  position: absolute;
+}
+
+#member8{
+  left: 694px;
+  top: 745px;
+  position: absolute;
+}
+
+#member9{
+  left: 231px;
+  top: 858px;
+  position: absolute;
+}
+
+#member10{
+  left: 442px;
+  top: 847px;
+  position: absolute;
+}
+
+#member11{
+  left: 761px;
+  top: 951px;
+  position: absolute;
+}
+
+#member12{
+  left: 289px;
+  top: 1079px;
+  position: absolute;
+}
+
+#member13{
+  left: 659px;
+  top: 1124px;
+  position: absolute;
+}
+
+#member14{
+  left: 868px;
+  top: 1135px;
+  position: absolute;
+}
+
+#member15{
+  left: 99px;
+  top: 1196px;
+  position: absolute; 
+}
+
+#member16{
+  left: 254px;
+  top: 1297px;
+  position: absolute;
+}
+
+#member17{
+  left: 940px;
+  top: 1321px;
+  position: absolute; 
+}
+
+/* css for background color */
+
 #photo1::before{
   content: "";
     height: 100%;
@@ -332,169 +972,57 @@ font-size: 1.5rem ;
     position: absolute;
     background-color: var(--back-purple);
 }
-
- #member2{
-  left: 48vw;
-  top: 50vh;
-  position: absolute;
-}
 #photo2::after{
   background-color:var(--back-green);
-}
- #member3{
-  left: 72vw;
-    top: 56vh;
-    position: absolute;
 }
 #photo3::after{
   background-color: var(--back-blue);
 }
-
-#member4{
-  left: 30vw;
-    top: 83vh;
-    position: absolute;
-}
 #photo4::after{
   background-color: var(--back-green);
 }
-#member5{
-  left: 71vw;
-    top: 90vh;
-  position: absolute;
-}
-
 #photo5::after{
   background-color:var(--back-purple);
 }
-
-#member6{
-  left: 13vw;
-    top: 124vh;
-  position: absolute;
-
-}
 #photo6::after{
   background-color: var(--back-blue);
-}
-
-#member7{
-  left: 29vw;
-  top: 129vh;
-  position: absolute;
 }
 #photo7::after{
   background-color: var(--back-purple);
 }
 
-#member8{
-  left: 57vw;
-  top: 132vh;
-  position: absolute;
-}
 #photo8::after{
   background-color: var(--back-green);
-}
-
-#member9{
-  left: 18vw;
-  top: 155vh;
-  position: absolute;
-
 }
 #photo9::after{
   background-color: var(--back-blue);
 }
-#member10{
-  left: 38vw;
-    top: 155vh;
-  position: absolute;
-
-}
 #photo10::after{
   background-color: var(--back-purple);
-}
-#member11{
-  left: 73vw;
-  top: 176vh;
-  position: absolute;
-
 }
 #photo11::after{
   background-color: var(--back-blue);
 }
-#member12{
-  left: 17vw;
-  top: 187vh;
-  position: absolute;
-
-}
 #photo12::after{
   background-color: var(--back-green);
-}
-#member13{
-  left: 47vw;
-  top: 203vh;
-  position: absolute;
-
 }
 #photo13::after{
   background-color: var(--back-purple);
 }
-#member14{
-  left: 63vw;
-  top: 200vh;
-  position: absolute;
-
-}
 #photo14::after{
   background-color: var(--back-green);
-}
-#member15{
-  left: 4vw;
-  top: 216vh;
-  position: absolute;
-
 }
 #photo15::after{
   background-color: var(--back-blue);
 }
-#member16{
-  left: 37vw;
-  top: 232vh;
-  position: absolute;
-
-}
 #photo16::after{
   background-color: var(--back-purple);
 }
-#member17{
-  left: 76vw;
-  top: 232vh;
-  position: absolute;
 
-}
 #photo17::after{
   background-color: var(--back-green);
 }
-#member18{
-  left: 69vw;
-    top: 124vh;
-  position: absolute;
 
-}
-#photo18::after{
-  background-color: var(--back-blue);
-}
-
-
-.post2{
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  transition: all 0.3s linear; 
-  position: absolute;
-}
 
 
 
