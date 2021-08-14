@@ -49,8 +49,8 @@
     left: 519px;
    }
    .team #h-coord{
-    top: 56px;
-    left: 519px;
+    top: 112px;
+    left: 534px;
     font-size: 1.1rem;
     font-weight: bolder;
   }
@@ -61,8 +61,8 @@
     left: 230px;
   }
   .team #h-quizzers{
-    top: 378px;
-    left: 230px;
+    top: 407px;
+    left: 250px;
     font-size: 1.5rem;
   }
   
@@ -72,8 +72,8 @@
     left: 560px;
   }
   .team #h-sponsorship{
-    top: 513px;
-    left: 560px;
+    top: 569px;
+    left: 581px;
       font-size: 1.8rem;
   }
   
@@ -96,8 +96,8 @@
     left: 416px;
   }
   .team #h-webhead{
-    top: 955px;
-    left: 416px;
+    top: 979px;
+    left: 446px;
       font-size: 1.8rem;
   }
   .team #quizzersclub{
@@ -106,8 +106,8 @@
     left: 565px;
   }
   .team #h-quizzersclub{
-    top: 967px;
-    left: 565px;
+    top: 1030px;
+    left: 585px;
     font-size: 1.5rem;
   }
   
@@ -122,8 +122,8 @@
     left: 741px;
   }
   .team #h-social{
-    top: 1089px;
-    left: 741px;
+    top: 1107px;
+    left: 775px;
     font-size: 1.5rem;
   }
   .team #designer{
@@ -132,8 +132,8 @@
     left: 393px;
   }
   .team #h-designer{
-    top: 1287px;
-    left: 393px;
+    top: 1337px;
+    left: 413px;
       font-size: 1.6rem;
   }
   .team #executive{
@@ -142,8 +142,8 @@
     left: 893px;
   }
   .team #h-exe{
-    top: 1158px;
-    left: 893px;
+    top: 1210px;
+    left: 915px;
     font-size: 1.5rem;
   }
   .team #prefinal{
@@ -152,8 +152,8 @@
     left: 718px;
   }
   .team #h-prefinal{
-    top: 1430px;
-    left: 718px;
+    top: 1492px;
+    left: 743px;
     overflow: hidden;
   }
   .team #pre{
@@ -170,8 +170,8 @@
     left: 558px;
   }
   .team #h-photographer {
-    top: 1394px;
-    left: 558px;
+    top: 1447px;
+    left: 576px;
     font-size: 1.1rem;
   }
   
@@ -300,8 +300,8 @@
    }
   
    .team #h-finalyear{
-    top: 30px;
-    left: 709px;
+    top: 62px;
+    left: 729px;
   }
   .team #final{
     font-size: 2rem;
@@ -316,8 +316,8 @@
     left: 547px;
    }
    .team #h-coord{
-    top: 43px;
-    left: 547px;
+    top: 98px;
+    left: 561px;
     font-size: 1.1rem;
     font-weight: bolder;
   }
@@ -328,8 +328,8 @@
     left: 288px;
   }
   .team #h-quizzers{
-    top: 406px;
-    left: 288px;
+    top: 438px;
+    left: 308px;
     font-size: 1.5rem;
   }
   
@@ -339,8 +339,8 @@
     left: 284px;
   }
   .team #h-sponsorship{
-    top: 1220px;
-    left: 284px;
+    top: 1280px;
+    left: 305px;
       font-size: 1.8rem;
   }
   
@@ -363,8 +363,8 @@
     left: 263px;
   }
   .team #h-webhead{
-    top: 875px;
-    left: 263px;
+    top: 897px;
+    left: 293px;
       font-size: 1.8rem;
   }
   .team #quizzersclub{
@@ -373,8 +373,8 @@
     left: 678px;
   }
   .team #h-quizzersclub{
-    top: 1611px;
-    left: 678px;
+    top: 1678px;
+    left: 698px;
     font-size: 1.5rem;
   }
   
@@ -389,8 +389,8 @@
     left: 551px;
   }
   .team #h-social{
-    top: 1343px;
-    left: 551px;
+    top: 1361px;
+    left: 586px;
     font-size: 1.5rem;
   }
   .team #designer{
@@ -399,8 +399,8 @@
     left: 399px;
   }
   .team #h-designer{
-    top: 1408px;
-    left: 399px;
+    top: 1457px;
+    left: 418px;
       font-size: 1.6rem;
   }
   .team #executive{
@@ -409,8 +409,8 @@
     left: 344px;
   }
   .team #h-exe{
-    top: 1753px;
-    left: 344px;
+    top: 1802px;
+    left: 360px;
     font-size: 1.5rem;
   }
   .team #prefinal{
@@ -419,8 +419,8 @@
     left: 315px;
   }
   .team #h-prefinal{
-    top: 1914px;
-    left: 315px;
+    top: 1978px;
+    left: 338px;
     overflow: hidden;
   }
   .team #pre{
@@ -437,8 +437,8 @@
     left: 510px;
   }
   .team #h-photographer {
-    top: 2051px;
-    left: 510px;
+    top: 2108px;
+    left: 526px;
     font-size: 1.1rem;
   }
   
@@ -609,15 +609,15 @@
    }
   
    .team #h-finalyear{
-    top: 70px;
-    left: 451px;
+    top: 96px;
+    left: 470px;
   }
 
   .team #final{
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
-  #year{
-    font-size: 1.5rem;
+  .team #year{
+    font-size: 1.2rem;
   }
    
   .team #coordinators{
@@ -626,10 +626,11 @@
     left: 573px;
    }
    .team #h-coord{
-    top: 302px;
-    left: 573px;
-    font-size: 1.1rem;
+    top: 351px;
+    left: 587px;
+    font-size: 1rem;
     font-weight: bolder;
+
   }
   
   .team #quizzers{
@@ -638,9 +639,9 @@
     left: 494px;
   }
   .team #h-quizzers{
-    top: 1077px;
-    left: 494px;
-    font-size: 1.5rem;
+    top: 1104px;
+    left: 517px;
+    font-size: 1.2rem;
   }
   
   .team #sponsorship{
@@ -649,11 +650,10 @@
     left: 410px;
 
   }
-  .team #h-sponsorship{
-    top: 604px;
-    left: 410px;
-
-      font-size: 1.8rem;
+  .team #h-sponsorship {
+    top: 642px;
+    left: 421px;
+    font-size: 1.4rem;
   }
   
   .team #sponsor{
@@ -676,9 +676,9 @@
     left: 445px;
   }
   .team #h-webhead{
-    top: 1693px;
-    left: 445px;
-      font-size: 1.8rem;
+    top: 1711px;
+    left: 468px;
+    font-size: 1.5rem;
   }
   .team #quizzersclub{
     background-color: black;
@@ -686,15 +686,16 @@
     left: 631px;
   }
   .team #h-quizzersclub{
-    top: 1040px;
-    left: 631px;
-    font-size: 1.5rem;
+    top: 1087px;
+    left: 643px;
+    font-size: 1.2rem;
+    overflow: hidden !important;
   }
   
   .team #quiz{
     background-color: var(--blue);
-    top: 2162px;
-    left: 415px;
+    top: 2158px;
+    left: 443px;
   }
   .team #social{
     background-color: var(--pink);
@@ -702,8 +703,8 @@
     left: 641px;
   }
   .team #h-social{
-    top: 1386px;
-    left: 641px;
+    top: 1397px;
+    left: 668px;
     font-size: 1.5rem;
   }
   .team #designer{
@@ -712,46 +713,46 @@
     left: 599px;
   }
   .team #h-designer{
-    top: 1908px;
-    left: 599px;
-      font-size: 1.6rem;
+    top: 1949px;
+    left: 613px;
+    font-size: 1.6rem;
   }
   .team #executive{
     background-color: var(--teal);
-    top: 2015px;
-    left: 383px;
+    top: 2021px;
+    left: 421px;
   }
   .team #h-exe{
-    top: 1996px;
-    left: 344px;
+    top: 2060px;
+    left: 432px;
     font-size: 1.5rem;
   }
   .team #prefinal{
     background-color: var(--pink);
-    top: 2414px;
-    left: 388px;
+    top: 2422px;
+    left: 430px;
   }
   .team #h-prefinal{
-    top: 2414px;
-    left: 388px;
+    top: 2466px;
+    left: 437px;
     overflow: hidden;
   }
   .team #pre{
-  font-size: 1.7rem ;
+  font-size: 1.5rem ;
   }
   
   .team #year{
-  font-size: 1.5rem ;
+  font-size: 1.2rem ;
   }
   
   .team #photographer{
     background-color: var(--purple);
-    top: 2198px;
+    top: 2219px;
     left: 619px;
   }
   .team #h-photographer {
-    top: 2198px;
-    left: 619px;
+    top: 2264px;
+    left: 630px;
     font-size: 1.1rem;
   }
   
@@ -845,8 +846,8 @@
   }
   
   .team #member15{
-    left: 509px;
-    top: 2046px;
+    left: 553px;
+    top: 2042px;
     position: absolute; 
   }
   
@@ -1248,8 +1249,8 @@ font-size: 1.5rem ;
 }
 
 #member16{
-  left: 254px;
-  top: 1297px;
+  left: 586px;
+  top: 2369px;
   position: absolute;
 }
 
